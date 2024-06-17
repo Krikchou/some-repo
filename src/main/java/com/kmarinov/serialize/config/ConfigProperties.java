@@ -17,5 +17,6 @@ public class ConfigProperties {
 	private Integer maxIterations;
 	private Double percentTolerance;
 	private List<String> configurationEnabledFor;
+	private List<String> apiPackages;
 
 }

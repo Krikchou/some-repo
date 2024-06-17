@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.kmarinov.serialize.model.StringRecord;
+import com.kmarinov.serialize.entities.StringRecord;
 
 @Repository
 public interface StringRecordRepository extends JpaRepository<StringRecord, Long> {
